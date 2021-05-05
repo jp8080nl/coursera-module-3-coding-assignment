@@ -1,0 +1,66 @@
+
+
+hr {
+	margin: 0 auto;
+	width: 95%;
+}
+
+h1 {
+	margin: 0px;
+	font-size: 1.5em;
+	color: black;
+}
+
+h2 {
+	margin: 10px;
+}
+
+h3 {
+	margin-top: 0px;
+}
+
+.navbar-header {
+	padding: 10px;
+}
+
+.navbar-brand {
+	padding: 10px;
+	padding-left: 20px
+}
+
+#navbar-collapse-1 ul  {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#header-nav {
+  background-color: #BACCDB;
+}
+
+#main-content {
+	margin: 15px;
+}
+
+.menu-items {
+	background-color: #8A8C8D;
+	color: #fff;
+	padding:20px;
+	height: 100%;
+}
+
+.col-margin {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
